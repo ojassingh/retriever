@@ -1,7 +1,6 @@
 'use client'
 import React, {useCallback} from 'react'
 import {useDropzone} from 'react-dropzone'
-import axios from 'axios'
 
 export default function MyDropzone(setDocument: any) {
     

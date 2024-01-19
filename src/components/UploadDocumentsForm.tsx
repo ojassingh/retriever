@@ -2,15 +2,6 @@
 
 import { useState, type FormEvent } from "react";
 import MyDropzone from './Dropzone';
-import DEFAULT_RETRIEVAL_TEXT from "../app/data/DefaultRetrievalText";
-// import { PDFLoader } from "langchain/document_loaders/fs/pdf";
-
-
-// async function getData(){
-//   const loader = new PDFLoader("../data/resume.pdf");
-//   const doc = await loader.load();
-//   console.log({ doc });
-// }
 
 export function UploadDocumentsForm() {
 
