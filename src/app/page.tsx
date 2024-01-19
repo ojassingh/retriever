@@ -1,8 +1,6 @@
 // 'use client'
 
 import { ChatWindow } from '@/components/ChatWindow'
-import MyDropzone from '@/components/Dropzone'
-import Image from 'next/image'
 export default function Home() {
 
   const InfoCard = (
@@ -15,7 +13,6 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/* <MyDropzone/> */}
       <ChatWindow
         endpoint="api/chat/retrieval"
         emptyStateComponent={InfoCard}
@@ -26,7 +23,6 @@ export default function Home() {
         emoji="👩‍🔬"
         titleText="Lavanya the scientist"
       ></ChatWindow>
-      {/* <button className='bg-blue-500 rounded-xl p-2'>Create</button> */}
     </main>
   )
 }
